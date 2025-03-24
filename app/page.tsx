@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center relative">
+    <main className="flex min-h-screen flex-col items-center justify-center overflow-hidden relative pl-[60px]">
       <Navbar 
         onShowProjects={handleShowProjects} 
         onToggleTerminal={handleToggleTerminal}

@@ -28,12 +28,14 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center overflow-hidden relative pl-[60px]">
+    <div className="flex">
       <Navbar 
         onShowProjects={handleShowProjects} 
         onToggleTerminal={handleToggleTerminal}
       />
-      <Terminal ref={terminalRef} title="Terminal" />
-    </main>
+      <main className="flex min-h-screen flex-col items-center justify-center w-[calc(100%-60px)] ml-[60px]">
+        <Terminal ref={terminalRef} title="Terminal" />
+      </main>
+    </div>
   );
 } 

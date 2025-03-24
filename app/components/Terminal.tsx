@@ -376,19 +376,9 @@ Libraries/Frameworks: Spring Boot, ReactJS, NextJS, NodeJS, PostgreSQL, PyTorch,
           transition={{ duration: 0.5 }}
           className="terminal"
           style={{ zIndex }}
-          drag
-          dragControls={dragControls}
-          dragMomentum={false}
-          dragElastic={0}
-          onClick={bringToFront}
-          onDragEnd={(e, info) => {
-            setPosition({ x: info.point.x, y: info.point.y });
-          }}
         >
           <div 
             className="terminal-header"
-            onPointerDown={startDrag}
-            style={{ cursor: 'grab' }}
           >
             <div className="flex">
               <div className="terminal-title">{title}</div>

@@ -28,8 +28,11 @@ body {
   overflow: hidden;
   width: 80%;
   max-width: 800px;
-  margin: 2rem auto;
-  position: relative;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: 10px solid var(--border-color);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 0 2px var(--primary-color);
   touch-action: none;
@@ -330,7 +333,7 @@ body {
 }
 
 .icon {
-  color: currentColor;
+  color: white;
 }
 
 .flex {

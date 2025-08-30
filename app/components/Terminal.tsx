@@ -157,8 +157,8 @@ GitHub: github.com/abaan-noman
 LinkedIn: linkedin.com/in/abaan-noman
 Location: Ottawa, ON, Canada
 
-Current Status: Studying CS @ Carleton University
-Expected Graduation: May 2027`;
+Current Status: ML Intern @ HBO | Studying CS @ Carleton University
+Expected Graduation: December 2026`;
 
   const helpOutput = `Available commands
 ------------------
@@ -177,8 +177,8 @@ I'm a Computer Science student at Carleton University with a minor in Mathematic
 I like building applications that solve real-world problems.
 
 Experience:
-• Incoming Software Engineer Intern @ Warner Bros. Discovery (May 2025)
-• Founding Engineer at Wearhouse (April 2025 - Present)
+• Machine Learning Intern @ HBO (September 2025 - Present)
+• Software Engineer Intern @ Warner Bros. Discovery (May 2025 - August 2025)
 • Teaching Assistant @ Carleton University (Sep 2024 - Dec 2024)`;
 
   const contactOutput = `Contact Information
